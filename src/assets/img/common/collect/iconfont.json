@@ -1,0 +1,16 @@
+{
+  "id": "2126329",
+  "name": "collect",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10060833",
+      "name": "星",
+      "font_class": "xing",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}
