@@ -32,7 +32,7 @@ export default {
   },
   computed:{
     showImages() {
-      return this.goodsItem.image || this.goodsItem.show.img
+      return this.goodsItem.image || this.goodsItem.img ||this.goodsItem.show.img
     }
   }
 }
@@ -68,8 +68,9 @@ export default {
 }
 
 .goods-info .price {
+  font-size: 5px;
   color: var(--color-tint);
-  margin-right: 20px;
+  margin-right: 18px;
 }
 
 .goods-info .collect {
@@ -80,8 +81,8 @@ export default {
   content: '';
   position: absolute;
   left: -15px;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   top: -1px;
   background: url("~/src/assets/img/common/collect.png") 0 0/14px 14px;
 }
